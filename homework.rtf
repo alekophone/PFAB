@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 first = "Alek"\
+last = "Stevens"\
+age = 36\
+\
+print first , last , age\
+\
+import math\
+\
+sideA = 12.55\
+sideB = 17.85\
+value = math.sqrt(sideA*sideA + sideB*sideB);\
+print value;\
+\
+operand1 = 95\
+operand2 = 64.5\
+\
+print operand1 , "+" , operand2 , "=" , operand1+operand2\
+print operand1 , "-" , operand2 , "=" , operand1-operand2\
+print operand1 , "*" , operand2 , "=" , operand1*operand2\
+print operand1 , "/" , operand2 , "=" , operand1/operand2\
+print operand1 , "%" , operand2 , "=" , operand1%operand2\
+\
+# This works well enough.  I'm not sure if it could be significantly shortened with a for loop.  maybe if you create an array for the operator strings.\
+# something like var operators = ["+" , "-" , "*" , "/" , "%"], and then for (i=0; i<operators.length); i++) \{console.log(operand1 + operators[i] + operand2 + "="...);\}\
+# then I get stuck because I don't know if the function can internally interpret a string as an actual operator.\
+# ie i assume "operand1 operands[i] operand2" wouldn't be interpreted as I would want it to be, but maybe there's a way?}
